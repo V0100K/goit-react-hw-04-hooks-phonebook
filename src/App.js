@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react";
-import ContactForm from "./components/ContactForm";
-import ContactList from "./components/ContactList";
-import Filter from "./components/Filter";
+import ContactForm from "./components/ontactForm";
+import ContactList from "./components/ontactList";
+import Filter from "./components/ilter";
 import {v4} from 'uuid';
 import "./App.css";
 

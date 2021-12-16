@@ -6,6 +6,7 @@ import {v4} from 'uuid';
 import "./App.css";
 
 
+
 const App = () => {
   const [contacts, setContacts] = useState(() => {
     return JSON.parse(window.localStorage.getItem('contacts')) ?? [];
